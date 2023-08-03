@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import React from 'react'
-import { useRouter  } from 'next/router';
+import { useRouter  } from 'next/navigation';
 
 
 const SignupPage = () => {

@@ -14,7 +14,7 @@ const Lang= () => {
  return (
  <div className='lang-select'>
     <Image
-        src="/globe.svg"
+        src="/GlobeAlt.svg"
         alt="globe Logo"
         className={styles.globeLogo}
         width={50}
