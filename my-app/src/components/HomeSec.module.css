@@ -1,0 +1,75 @@
+.section{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    min-height: 30rem;
+    padding: 7.5rem 0 2rem;
+    position: relative;
+    align-items: center;
+}
+.h1{
+    display: block;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.emailSignUp{
+    margin-top: 2rem;
+    display: block;
+
+}
+.email-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.email{
+    background: transparent!important;
+  /* overflow: hidden;
+  color: white;
+  border:1px solid #fff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 5px;
+  font-size: 1.3rem; */
+    color: white;
+    
+    text-align: left;
+    height: 56px;
+    border-radius: 4px;
+    width :376.75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.emailButton{
+    border: 0;
+    outline: 0;
+    background-color: red;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    background-origin :padding-box;
+    border-radius: 5px;
+    cursor: pointer;
+    display:flex;
+    font-size: 24px;
+    font-weight: 500;
+    min-height: 56px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 12px;
+    padding-left :24px;
+    padding-right :24px;
+    padding-top: 12px;
+}

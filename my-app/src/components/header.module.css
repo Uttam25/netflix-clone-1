@@ -1,0 +1,18 @@
+.signIn{
+    border: 0;
+    outline: 0;
+    background-color: red;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: normal;
+    font-size:1rem;
+    color: white;
+    border-radius: 5px;
+    padding-right: 1rem;
+    padding-left:1rem;
+    margin-left: 2rem;
+    padding: 0.3rem;
+}
+.netflixLogo{
+  
+    margin-left: 4rem;
+  }
