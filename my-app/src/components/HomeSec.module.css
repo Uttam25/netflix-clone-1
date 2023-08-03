@@ -23,29 +23,21 @@
 .emailSignUp{
     margin-top: 2rem;
     display: block;
-
+    
 }
-.email-input{
+.emailInput{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: end;
+    
+   flex-wrap: wrap;
 }
 
 .email{
     background: transparent!important;
-  /* overflow: hidden;
-  color: white;
-  border:1px solid #fff;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  border-radius: 5px;
-  font-size: 1.3rem; */
+    overflow: hidden;
     color: white;
-    
     text-align: left;
     height: 56px;
     border-radius: 4px;
@@ -62,7 +54,6 @@
     background-origin :padding-box;
     border-radius: 5px;
     cursor: pointer;
-    display:flex;
     font-size: 24px;
     font-weight: 500;
     min-height: 56px;
@@ -72,4 +63,4 @@
     padding-left :24px;
     padding-right :24px;
     padding-top: 12px;
-}
+} 
