@@ -11,6 +11,9 @@ export default function Home() {
         <Header/>
         <Section/>
       </div>
+      <div>
+     
+      </div>
     </main>
   )
 }
