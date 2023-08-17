@@ -13,13 +13,7 @@ const Lang= () => {
  };
  return (
  <div className='lang-select'>
-    <Image
-        src="/GlobeAlt.svg"
-        alt="globe Logo"
-        className={styles.globeLogo}
-        width={50}
-        height={20} 
-     />
+    
      <label>
      
         <select value={value} onChange={handleChange} className={styles.select}>

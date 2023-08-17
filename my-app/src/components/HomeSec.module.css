@@ -3,34 +3,36 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 7rem;
     height: 100%;
     box-sizing: border-box;
     min-height: 30rem;
     padding: 7.5rem 0 2rem;
     position: relative;
     align-items: center;
+    /* padding-bottom: 15rem; */
 }
 .h1{
     display: block;
     margin: 0;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 .p{
-    font-size: 1.125rem;
+    font-size:1.75rem;
     font-weight: 400;
 }
 .emailSignUp{
     margin-top: 2rem;
-    display: block;
+    
     
 }
 .emailInput{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: end;
-    
+    margin-right: 16rem;
    flex-wrap: wrap;
 }
 
@@ -39,16 +41,18 @@
     overflow: hidden;
     color: white;
     text-align: left;
-    height: 56px;
-    border-radius: 4px;
-    width :376.75px;
-    display: flex;
+    font-size: 2rem;
+    height: 76px;
+    border-radius: 9px;
+    padding-left: 13px;
+    width :577px;
+    margin-right: 7rem;
     flex-wrap: wrap;
 }
 .emailButton{
     border: 0;
     outline: 0;
-    background-color: red;
+    background-color:red;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     color: white;
     background-origin :padding-box;
@@ -56,11 +60,23 @@
     cursor: pointer;
     font-size: 24px;
     font-weight: 500;
-    min-height: 56px;
+    margin-left: -5rem;
+    min-height: 76px;
     overflow-x: visible;
     overflow-y: visible;
     padding-bottom: 12px;
     padding-left :24px;
     padding-right :24px;
-    padding-top: 12px;
+   
 } 
+.arrow {
+    border: solid rgb(243, 242, 242);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }

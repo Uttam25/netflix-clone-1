@@ -1,0 +1,34 @@
+.container2{
+    height:680px;
+    width:100%;
+    background: #000;
+    display:flex ;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+.left{
+   width: 670px;
+   flex-wrap: wrap;
+}
+.left>h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+.left>p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 450px;
+}
+.Card2Logo{
+    width: 100%;
+    align-items: baseline;
+}
+.right{
+    width: 670px;
+
+}

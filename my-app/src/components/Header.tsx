@@ -12,7 +12,7 @@ import Button from './Button'
                     src="/logo.svg"
                     alt="Netflix Logo"
                     className={styles.netflixLogo}
-                    width={200}
+                    width={250}
                     height={100} />
             <div className={styles.hRight}>
                 <Lang/>

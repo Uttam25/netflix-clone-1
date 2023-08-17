@@ -1,0 +1,40 @@
+ .container{
+    height:520px;
+    width: auto;
+    background: #000;
+    color: rgba(255,255,255,0.7);
+    
+ }
+ .pass a{
+    padding-left: 6px;
+    color: rgba(255,255,255,0.7);
+ }
+ 
+ .footer{
+    margin-top: 6rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .contact{
+    padding-bottom: 2rem;
+ }
+ .info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+ }
+ .pl{
+    text-decoration-color: rgba(255,255,255,0.7);
+ }
+ .cn{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+ }
+ 
+.pl a{
+    color: rgba(255,255,255,0.7);
+}

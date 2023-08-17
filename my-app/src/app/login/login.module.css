@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/my-app/public/netflix-bg.png');
+}
+.loginh1{
+    margin: 1.75rem; 
+  color: white;   
+  font-size: 3rem; 
+  color: #EF4444;
+
+}
+.loginEmail{
+    margin-top: 1.5rem;       
+    outline: none;            
+    padding: 0.5rem 1rem;      
+    border: 1px solid #D1D5DB;
+    border-radius: 0.25rem;   
+    margin: 1rem;             
+}
+.loginEmail:focus {
+    border-color: #6B7280;     
+  }
+  .custom-input {
+    margin-top: 0.75rem;      /* Equivalent to mt-3 in Tailwind */
+    width: 57.1428571%;       /* Equivalent to w-4/7 in Tailwind */
+    outline: none;            /* Equivalent to focus:outline-none in Tailwind */
+    padding: 0.5rem 1rem;     /* Equivalent to p-2 in Tailwind */
+    border: 1px solid #D1D5DB; /* Equivalent to border border-gray-300 in Tailwind */
+    border-radius: 0.25rem;   /* Equivalent to rounded-lg in Tailwind */
+    margin: 1rem;             /* Equivalent to m-4 in Tailwind */
+  }
+  
+  .custom-input:focus {
+    border-color: #6B7280;    /* Equivalent to focus:border-gray-600 in Tailwind */
+  }
+  
