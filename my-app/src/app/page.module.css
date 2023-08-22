@@ -18,4 +18,64 @@
   position: relative;
   font-family: sans-serif;
 }
+.AccordionPage{
+  color: #fff;
+  height: 1089px;
+  margin: 3rem;
+}
+.topic{
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.emailSignUp{
+  margin-top: 2rem; 
+}
+.faqBottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emailInput{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: end;
+  margin-right: 16rem;
+ flex-wrap: wrap;
+}
+
+.email{
+  background: transparent!important;
+  overflow: hidden;
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  height: 76px;
+  border-radius: 9px;
+  padding-left: 13px;
+  width :577px;
+  margin-right: 7rem;
+  flex-wrap: wrap;
+}
+.emailButton{
+  border: 0;
+  outline: 0;
+  background-color:red;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  color: white;
+  background-origin :padding-box;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: -5rem;
+  min-height: 76px;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding-bottom: 12px;
+  padding-left :24px;
+  padding-right :24px;
+ 
+}
 

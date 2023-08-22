@@ -1,0 +1,25 @@
+.panel__head {
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;    
+}
+
+.panel__body {
+    width: fit-content;
+	overflow: hidden;
+}
+
+.topic{
+    color: #fff;
+    text-align: center;
+}
+.panel__content {
+	opacity: 0;
+    color: #fff;
+}
+
+.panel[aria-expanded='true'] .panel__content {
+	opacity: 1;
+    color: #fff;
+}
