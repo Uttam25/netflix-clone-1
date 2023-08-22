@@ -6,8 +6,11 @@ export interface PanelProps {
   index: number;
   title: React.ReactNode;
   duration: number;
+  children?: React.ReactNode;
   activeTab: number;
   activatePanel(index: number): void;
+  open?: boolean;
+  multiple: boolean;
 }
 
 export const Panel: React.FunctionComponent<Readonly<PanelProps>> = ({
@@ -16,7 +19,8 @@ export const Panel: React.FunctionComponent<Readonly<PanelProps>> = ({
   duration,
   activeTab,
   activatePanel,
-  children
+  children,
+  
 }: PanelProps) => {
   const ref: React.MutableRefObject<HTMLDivElement | null> = React.useRef(null);
   const [height, setHeight] = React.useState(0);
@@ -24,18 +28,17 @@ export const Panel: React.FunctionComponent<Readonly<PanelProps>> = ({
   const isActive = activeTab === index;
   const style: React.CSSProperties = {
     height: `${isActive ? height : 0}px`,
-    overflow: 'hidden', // Hide content by default
-    transition: `height ${duration || 300}ms ease`,
-    padding:'1rem',
-    width:'90vh',
-    marginLeft:'4rem',
-    marginRight:'4rem'
+    overflow: 'hidden',
+    marginTop:'8px',
+    marginBottom:'1rem',
+    
+    backgroundColor:'rgb(45,45,45)',
   };
 
   React.useEffect(() => {
     const timeout = setTimeout(() => {
       const el = ref.current;
-      const newHeight = el?.querySelector('.faqBody')?.scrollHeight;
+      const newHeight = el?.querySelector('.panel_body')?.scrollHeight;
 
       setHeight(newHeight || height);
     }, duration || 300);
@@ -46,10 +49,10 @@ export const Panel: React.FunctionComponent<Readonly<PanelProps>> = ({
   }, [isActive, duration, height]);
 
   return (
-    <div className="panel" role="tabpanel" aria-expanded={isActive} ref={ref}>
+    <div className="panel"  aria-expanded={isActive} ref={ref}>
       <button
         role="tab"
-        className="faqPanel"
+        className="panel_head"
         onClick={() => {
           activatePanel(index);
         }}
@@ -57,8 +60,8 @@ export const Panel: React.FunctionComponent<Readonly<PanelProps>> = ({
         {title}
       </button>
 
-      <div style={style} className="faqBody" aria-hidden={!isActive}>
-        <div className="faqContent">{children}</div>
+      <div style={style} className="panel_body" aria-hidden={!isActive}>
+        <div className="panel_content">{children}</div>
       </div>
     </div>
   );

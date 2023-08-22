@@ -44,7 +44,7 @@ function LoginPage(): React.JSX.Element {
         placeholder='enter a password'
         onChange={(e) => setUser({ ...user, password: e.target.value })} />
       <button onClick={onLogin} className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline:none focus:border-gray-600 bg-red-500 text-white'>Submit</button>
-      <Link className='text-white' href='/localhost:3000'>New User? <span> sign in</span></Link>
+      <Link className='text-white' href='/home'>New User? <span> sign in</span></Link>
     </div>
   );
 }
